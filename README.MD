@@ -3,6 +3,15 @@
 ## Issue:
 The current script using Eventlet and Redis with TLS is facing connection issues, and it seems that Eventlet monkey patching might be affecting the connection to Redis.
 
+### requirements.txt
+- I chose the versions below because they are compatible with each other
+```plaintext
+Flask==2.3.0
+eventlet==0.32.0
+redis==3.5.3
+numpy==1.21.0
+
+
 ## Solution Steps:
 
 1. **Update Libraries:**
