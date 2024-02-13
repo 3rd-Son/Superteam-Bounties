@@ -52,13 +52,5 @@ The current script using Eventlet and Redis with TLS is facing connection issues
      python script_name.py
      ```
 
-6. **Check for Issues:**
-   - Monitor the terminal for any error messages. If there are still issues, consider checking the compatibility of the versions and consulting the documentation for Eventlet and Redis TLS support.
-
-7. **Alternative Approach:**
-   - If issues persist, consider using a different concurrency library or exploring other solutions for handling asynchronous networking with Flask and Redis.
-
-8. **Documentation Reference:**
-   - Refer to the official documentation for Eventlet, Flask, and Redis for any additional information or updates related to TLS support and monkey patching.
-
-Feel free to test the modified script and provide feedback if any issues persist.
+Check `bounty.py` for the corrected code
+This should work
