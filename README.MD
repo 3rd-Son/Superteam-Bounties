@@ -46,11 +46,8 @@ The current script using Eventlet and Redis with TLS is facing connection issues
    - Before running the script, ensure that you have a Redis server with TLS support running, and replace the `REDIS_URL` placeholder with the correct connection information.
 
 5. **Run the Script:**
-   - Save the script and run it using:
+   - Save the script and run it
 
-     ```bash
-     python script_name.py
-     ```
 
 Check `bounty.py` for the corrected code
 This should work
